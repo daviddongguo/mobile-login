@@ -1,6 +1,7 @@
 import React from 'react';
-import { Button, Card, Col, Container, Form, Input, Row } from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 import './App.css';
+import Signin from './components/Signin';
 
 // Written as a function declaration
 function App(): JSX.Element {
@@ -10,14 +11,7 @@ function App(): JSX.Element {
                 <Row>
                     <Col></Col>
                     <Col className="signin-body" sm={8}>
-                        <Card>
-                            <p>Hi, there!</p>
-                            <Form>
-                                <Input value="Email"></Input>
-                                <Input></Input>
-                                <Button></Button>
-                            </Form>
-                        </Card>
+                        <Signin></Signin>
                     </Col>
                     <Col></Col>
                 </Row>
