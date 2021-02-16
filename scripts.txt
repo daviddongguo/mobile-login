@@ -10,7 +10,7 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier --dev
 
 yarn add react react-dom
 yarn add bootstrap reactstrap
-yarn add --dev @types/react @types/react-dom @types/reactstrap
+yarn add --dev @types/react @types/react-dom
 
 code bootstrap/dist/css/bootstrap.css
 import 'bootstrap/dist/css/bootstrap.css';
