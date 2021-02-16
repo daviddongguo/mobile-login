@@ -1,0 +1,9 @@
+npx create-react-app mobile-login --template typescript
+cd mobile-login
+
+yarn add react react-dom
+yarn add bootstrap reactstrap
+yarn add --dev @types/react @types/react-dom @types/reactstrap
+
+# yarn add --dev typescript typings tslint
+# yarn add --dev tslint-config-airbnb
