@@ -1,7 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './bootstrap-4.0.0/dist/css/bootstrap.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
